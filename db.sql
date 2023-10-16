@@ -33,4 +33,18 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+SELECT
+    b.user_id,
+    u.username,
+    b.amount_available as balance,
+    json_agg(json_build_object('trx_id', t.trx_id, 'amount', t.amount)) AS transactions
+FROM
+    balance AS b
+JOIN
+    users AS u ON b.user_id = u.id
+LEFT JOIN
+    transaction AS t ON b.user_id = t.user_id
+GROUP BY
+    b.user_id, u.username, b.amount_available;
+
 
