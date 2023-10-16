@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/ariffebri22/RecipeAPIV2.2">
+  <a href="https://github.com/ariffebri22/IZIDATA">
     <img src="https://res.cloudinary.com/dcpi3m2up/image/upload/v1697480872/samples/dumb/logo_footer_tpd4mp.png" alt="Logo" width="250" height="100">
   </a>
 
@@ -94,7 +94,8 @@ SECRET_KEY=
 
 ## How To Use
 
--   Type `npm start` To Start Production
+-  You can use the API via this link https://concerned-puce-petticoat.cyclic.app/
+-  Or To view the endpoints, you can find them in the router folder, or for convenience, you can use the Postman application and import the JSON-formatted file. There, you can see the endpoints and also test the API
 
 ## Contact
 
