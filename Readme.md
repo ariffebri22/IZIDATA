@@ -96,6 +96,15 @@ SECRET_KEY=
 
 -  You can use the API via this link https://concerned-puce-petticoat.cyclic.app/
 -  Or To view the endpoints, you can find them in the router folder, or for convenience, you can use the Postman application and import the JSON-formatted file. There, you can see the endpoints and also test the API
+-  To try the private route feature without registration, you can use the following account:
+```
+  admin@gmail.com
+  admin123
+```
+```
+  user@gmail.com
+  user123
+```
 
 ## Contact
 
